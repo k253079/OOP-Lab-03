@@ -22,8 +22,9 @@ public class BankAccount {
         System.out.println("Account Balance: "+ initialBalance);
     }
     public static void main(String[] args){
-        BankAccount account1 = new BankAccount(1,:"Kamran",500000);
-        BankAccount account2 = new BankAccount();
+        BankAccount account1 = new BankAccount(1,"Kamran",500000);
+        BankAccount account2 = new BankAccount(2,Uzair);
     }
 }
+
 
