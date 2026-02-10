@@ -4,8 +4,10 @@ public class BankAccount {
     int accountNumber;
     String accountHoldername;
     int initialBalance;
-    BankAccount(){
-
+    BankAccount(int num ,String name){
+         this.accountNumber = num;
+        this.accountHoldername = name;
+        initialBalance = 0;
     }
     
     BankAccount(int num ,String name,int balance){
@@ -24,3 +26,4 @@ public class BankAccount {
         BankAccount account2 = new BankAccount();
     }
 }
+
